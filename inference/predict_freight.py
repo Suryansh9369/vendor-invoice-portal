@@ -1,7 +1,8 @@
 import joblib
 import pandas as pd
+import os
 
-MODEL_PATH = "C:/Users/surya/Desktop/predicting frieght cost/models/predict_freight_model.pkl"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "predict_flag_invoice.pkl")
 
 def load_data(model_path: str=MODEL_PATH):
     """
