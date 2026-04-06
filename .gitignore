@@ -24,13 +24,6 @@ notebooks/
 *.ipynb
 
 # ========================
-# ML Models (Large Files)
-# ========================
-models/predict_flag_invoice.pkl
-models/predict_freight_model.pkl
-models/scaler.pkl
-
-# ========================
 # Database
 # ========================
 data/inventory.db
